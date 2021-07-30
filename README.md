@@ -20,12 +20,14 @@ Users should be able to:
 
 [Mobile](images/mobile.png)
 
+[Tablet](images/tablet.png)
+
 [Desktop](images/desktop.png)
 
 ### Links
 
-- Repository URL: [Github]()
-- Live Site URL: [Netlify]()
+- Repository URL: [Github](https://github.com/juanptsanchez/sign-up-page)
+- Live Site URL: [Netlify](https://sign-up-page-challenge.netlify.app/)
 
 ### Built with
 
