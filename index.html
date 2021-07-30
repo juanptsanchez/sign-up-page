@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up page</title>
+
+    <!-- META -->
+    <meta name="author" content="Juan Pablo Torres Sánchez">
+    <meta name="description" content="Sign up practice website coded by Juan Pablo Torres Sánchez.">
+    <meta name="keywords" content="css, flexbox, html5">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+  
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/5179a5d3be.js" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+
+    <!-- RESPONSIVE CSS -->
+    <link rel="stylesheet" href="css/tablet.css" media="screen and (min-width: 600px)" type="text/css">
+    <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width: 1024px)" type="text/css">
+  </head>
+
+<body>
+
+  <main class="site-main">
+
+    <section class="left-card">
+      <div class="left-content container">
+        <h1><i class="fab fa-glide-g"></i>radie</h1>
+        <h2>Beautiful gradients in seconds</h2>
+      </div>
+    </section>
+
+    <section class="right-card"> 
+      <div class="right-content container">
+        <h3>Login</h3>
+
+        <form action="" class="form">
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="john@example.com" required>
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="At least 8 characters" minlength="8" required>
+          <div class="terms">
+            <input type="checkbox" id="terms" required>
+            <label for="terms">By creating an account, you agree to the 
+              <a href="#">Terms &amp; Conditions</a>.
+            </label>
+          </div>
+          <input type="submit" value="Create an Account" class="btn">
+
+        </form>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="container">
+    <p class="attribution">
+      Coded by <a href="https://github.com/juanptsanchez" target="_blank" rel="noreferrer">Juan Pablo Torres Sánchez <i class="fab fa-github"></i></a>
+    </p>
+  </footer>
+
+</body>
+</html>

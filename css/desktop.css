@@ -1,0 +1,81 @@
+/* ================================================
+GLOBAL
+================================================ */
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ================================================
+MAIN
+================================================ */
+.site-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+/* LEFT CONTAINER */
+.left-card {
+    height: 450px;
+    margin: 0;
+    background-size: 300px;
+    flex-basis: 50%;
+    border-radius: 1rem 0 0 1rem;
+    -webkit-border-radius: 1rem 0 0 1rem;
+    -moz-border-radius: 1rem 0 0 1rem;
+    -ms-border-radius: 1rem 0 0 1rem;
+    -o-border-radius: 1rem 0 0 1rem;
+}
+.left-card h1 {
+    padding-top: 5rem;
+    font-size: 6rem;
+}
+.left-card h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+/* RIGHT CONTAINER */
+.right-card {
+    padding: 3rem 4rem;
+    height: 450px;
+    margin: 0;
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 1rem 1rem 0;
+    -webkit-border-radius: 0 1rem 1rem 0;
+    -moz-border-radius: 0 1rem 1rem 0;
+    -ms-border-radius: 0 1rem 1rem 0;
+    -o-border-radius: 0 1rem 1rem 0;
+}
+.right-card h3 {
+    font-size: 3rem;
+}
+.form label {
+    font-size: 1.6rem;
+}
+.form label:nth-child(3) {
+    padding-top: 1.5rem;
+}
+.form input {
+    width: 100%;
+    padding: 1.5rem 1rem;
+}
+.btn:hover {
+	color: #fff;
+	background-color: #286883;
+}
+
+/* TERMS AND CONDITIONS */
+.terms input {
+    width: auto;
+}
+.terms label {
+    font-size: 1.3rem;
+}

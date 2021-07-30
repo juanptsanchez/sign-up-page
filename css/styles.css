@@ -1,0 +1,140 @@
+/* ========================================= 
+BOX-SIZING / FONT SIZE
+=========================================== */
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+/* ================================================
+GLOBAL
+================================================ */
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.6rem;
+}
+.container {
+	max-width: 1200px;
+	width: 90%;
+	margin: 0 auto;
+}
+/* ================================================
+MAIN
+================================================ */
+
+/* LEFT CONTAINER */
+
+.left-card {
+	text-align: center;
+	background-color: #022A3B;
+	background-image: url(../images/iPhone\ Mockup.png);
+	background-position: bottom;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 400px;
+	min-width: 320px;
+	max-width: 600px;
+	margin: 0 auto;
+}
+.left-card h1 {
+	margin: 0;
+	padding-top: 3rem;
+	color: #fff;
+	font-weight: 400;
+	font-size: 5rem;
+}
+.left-card h2 {
+	color: #6ba8c1;
+	font-size: inherit;
+	font-weight: 400;
+}
+/* RIGHT CONTAINER */
+
+.right-card {
+	padding: 3rem 4rem;
+	background-color: #fff;
+	height: 400px;
+	min-width: 320px;
+	max-width: 600px;
+	margin: 0 auto;
+}
+.right-card h3 {
+	font-size: 3rem;
+	font-weight: 100;
+	margin: 0 0 3rem 0;
+}
+.form label {
+	display: block;
+	padding-bottom: .5rem;
+	font-weight: bold;
+}
+.form label:nth-child(3) {
+	padding-top: 1.5rem;
+}
+.form input {
+	width: 100%;
+	padding: 1.5rem 1rem;
+	border: 1px solid #dcdcdc;
+	border-radius: 1rem;
+	-webkit-border-radius: 1rem;
+	-moz-border-radius: 1rem;
+	-ms-border-radius: 1rem;
+	-o-border-radius: 1rem;
+}
+.form input:last-of-type {
+    border: none;
+}
+/* TERMS AND CONDITIONS */
+
+.terms {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	margin: 2.5rem 0;
+}
+.terms input {
+	width: auto;
+}
+.terms label {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	font-size: 1.3rem;
+	font-weight: initial;
+}
+.terms label a {
+	color: #022A3B;
+	cursor: pointer;
+	font-weight: bold;
+}
+.btn {
+	color: #fff;
+	background-color: #022A3B;
+	font-size: 1.3rem;
+}
+/* ================================================
+FOOTER
+================================================ */
+
+.attribution {
+	text-align: center;
+	font-size: 1.3rem;
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 3rem 0;
+	width: 80%;
+	font-size: 1.4rem;
+}
+.attribution a {
+	text-decoration: none;
+	color: #022A3B;
+}
+.attribution a i {
+	font-size: 1.6rem;
+	color: #022A3B;
+}

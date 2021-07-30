@@ -1,0 +1,34 @@
+/* ================================================
+GLOBAL
+================================================ */
+body {
+    background-color: #BDBDBD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ================================================
+MAIN
+================================================ */
+.site-main {
+    margin-top: 3rem;
+}
+/* LEFT CONTAINER */
+.left-card {
+    border-radius: 1rem 1rem 0 0;
+    -webkit-border-radius: 1rem 1rem 0 0;
+    -moz-border-radius: 1rem 1rem 0 0;
+    -ms-border-radius: 1rem 1rem 0 0;
+    -o-border-radius: 1rem 1rem 0 0;
+}
+
+/* RIGHT CONTAINER */
+.right-card {
+    border-radius: 0 0 1rem 1rem;
+    -webkit-border-radius: 0 0 1rem 1rem;
+    -moz-border-radius: 0 0 1rem 1rem;
+    -ms-border-radius: 0 0 1rem 1rem;
+    -o-border-radius: 0 0 1rem 1rem;
+}
